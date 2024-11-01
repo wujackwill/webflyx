@@ -1,0 +1,1020 @@
+    1  ls
+    2  cd ~
+    3  ln -s /mnt/c/Users/jackwill/.ssh .
+    4  sudo vim /etc/wsl.conf
+    5  cd ~/.ssh
+    6  cd ~
+    7  ls
+    8  ls -a
+    9  cd .ssh
+   10  cd ~/.ssh
+   11  cd /mnt/c/Users/jackwill/
+   12  ls
+   13  cd .ssh
+   14  ls
+   15  cd ~
+   16  ln -s /mnt/c/Users/jackwill/.ssh .
+   17  rm -rf ~/.ssh
+   18  ln -s /mnt/c/Users/jackwill/.ssh .
+   19  cd ~/.ssh
+   20  chmod 644 config
+   21  chmod 400 id_ed25519
+   22  cd ~
+   23  ls
+   24  mkdir personal
+   25  cd personal
+   26  git clone git@github.com:wujackwill/todo-cli-app.git
+   27  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   28  vim ~/.zshrc
+   29  source ~/.zshrc
+   30  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+   31  . "$HOME/.cargo/env"
+   32  cargo
+   33  cargo install todo-cli-app
+   34  sudo apt install gcc
+   35  curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+   36  export NVM_DIR="$HOME/.nvm"
+   37  nvm
+   38  nvm install node
+   39  npm
+   40  yarn
+   41  sudo apt install yarn
+   42  sudo apt-get install software-properties-common
+   43  sudo apt-get install python-software-properties
+   44  sudo apt-get install software-properties-common
+   45  sudo add-apt-repository ppa:neovim-ppa/stable\nsudo apt-get update\nsudo apt-get install neovim
+   46  sudo apt-get install python-dev python-pip python3-dev python3-pip
+   47  sudo apt-get install python-dev python3-pip
+   48  sudo apt-get install python-dev-is-python3 python3-pip
+   49  pip3 install pynvim
+   50  pip install pynvim
+   51  nvim
+   52  sudo apt install stow
+   53  mkdir .dotfiles
+   54  cd .dotfiles
+   55  ls
+   56  mkdir .config
+   57  cd .config
+   58  git clone git@github.com:wujackwill/nvim.git
+   59  cd ~/.dotfiles
+   60  stow .
+   61  nvim
+   62  cd ~/personal/todo-cli-app
+   63  ls
+   64  nvim .
+   65  ls
+   66  cd personal/todo-cli-app
+   67  ls
+   68  nvim ~/.zshrc
+   69  source ~/.zshrc
+   70  vium
+   71  vim
+   72  cd ~/.dotfiles/.config/nvim
+   73  ls
+   74  nvim .
+   75  cd ~/personal/todo-cli-app
+   76  vim .
+   77  cd /mnt/c/Users/jackwill/Desktop
+   78  ls
+   79  cargo new helloworld
+   80  cd helloworld
+   81  vim .
+   82  cargo r
+   83  nvim ~/.zshrc
+   84  source ~/.zshrc
+   85  curl google.com
+   86  cd ~/.dotfiles/
+   87  ls
+   88  mkdir -p .local/bin
+   89  cd .local/bin
+   90  vim tmux-sessionizer
+   91  vim tmux-cht.sh
+   92  cd ..
+   93  ls
+   94  mkdir .tmux
+   95  rm -rf .tmux
+   96  mkdir tmux
+   97  cd tmux
+   98  vim .tmux.conf
+   99  vim .tmux-cht-languages
+  100  vim .tmux-cht-command
+  101  cd ..
+  102  stow .
+  103  tmux
+  104  q
+  105  tmux
+  106  source-file ~/.tmux.con
+  107  tmux source ~/.tmux.conf
+  108  tmux source ~/.dotfiles/tmux/.tmux.conf
+  109  tmux
+  110  tmux kill-server
+  111  cd ~/.dotfiles/
+  112  ls
+  113  cd tmux
+  114  ls
+  115  vim .
+  116  cd .
+  117  cd ..
+  118  ls
+  119  cd .local/bin
+  120  ls
+  121  chmod 600 tmux-cht.sh
+  122  chmod 600 tmux-sessionizer
+  123  tmux source ~/.dotfiles/tmux/.tmux.conf
+  124  tmux
+  125  tmux source ~/.dotfiles/tmux/.tmux.conf
+  126  sudo apt install fzf
+  127  tmux kill-server
+  128  tmux
+  129  tmux source ~/.dotfiles/tmux/.tmux.conf
+  130  fzf
+  131  cd ~/.dotfiles/
+  132  stow .
+  133  tmux
+  134  cd ~/.dotfiles/
+  135  vim .
+  136  stow .
+  137  tmux
+  138  tmux-sessionizer
+  139  ./tmux-sessionizer
+  140  nvim ~/.zshrc
+  141  source ~/.zshrc
+  142  ./tmux-sessionizer
+  143  tmux-sessionizer
+  144  cd ~/.dotfiles/
+  145  cd .local/bin
+  146  chmod 700 tmux-sessionizer
+  147  chmod 700 tmux-cht.sh
+  148  tmux-sessionizer
+  149  tmux
+  150  vim 
+  151  vim .
+  152  ls
+  153  curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+  154  vim ~/.zshrc
+  155  source ~/.zshrc
+  156  cd /mnt/c/Users/jackwill/Desktop
+  157  z Desktop
+  158  tmux
+  159  tmux kill
+  160  tmux kill-server
+  161  tmux
+  162  stow .
+  163  vim .
+  164  tmux
+  165  tmux kill-server
+  166  tmux
+  167  ls
+  168  vim 
+  169  vim .
+  170  ls
+  171  tmux
+  172  vim .
+  173  cargo install todo-cli-app
+  174  todo list
+  175  todo-cli-app list
+  176  lsd
+  177  ls
+  178  cd ~/personal
+  179  git clone git@github.com:wujackwill/md.git
+  180  git config --global commit.gpgsign true
+  181  git config --global gpg.format ssh
+  182  ls ~/.ssh
+  183  git config --global user.signingkey ~/.ssh/id_ed25519.pub
+  184  ls
+  185  cd md
+  186  ls
+  187  vim 
+  188  vim .
+  189  git status
+  190  git add .
+  191  git commit - m 'test git sign'
+  192  git commit -m 'test git sign'
+  193  git config --global user.name "jackwill"
+  194  git commit -m 'test git sign'
+  195  git push -u origin main
+  196  git push -u origin master
+  197  ls
+  198  tmux
+  199  cd ~/personal
+  200  cd ~/.dotfiles/
+  201  ls
+  202  vim .
+  203  ls
+  204  pwd
+  205  ls
+  206  mkdir helloworld
+  207  vim ./
+  208  vim .
+  209  cd ..
+  210  rm -rf helloworld
+  211  cargo new helloworld
+  212  vim .
+  213  cd helloworld
+  214  ls
+  215  vim .
+  216  ls
+  217  todo-cli-app list
+  218  cd ~/.dotfiles/
+  219  ls
+  220  ls -a
+  221  vim .zshrc
+  222  tmux
+  223  cargo re
+  224  cargo rr
+  225  cargo r
+  226  vim .
+  227  cargo r
+  228  vim .
+  229  cargo r
+  230  vim .
+  231  z Desktop
+  232  wget https://repo.anaconda.com/miniconda/Miniconda3-py39_4.12.0-Linux-x86_64.sh
+  233  sh ./Miniconda3-py39_4.12.0-Linux-x86_64.sh
+  234  conda
+  235  conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+  236  conda config --set auto_activate_base false                                                                     
+  237  ls
+  238  tmux
+  239  vim .
+  240  cargo r
+  241  vim .
+  242  cargo r
+  243  vim .
+  244  cargo r
+  245  ls
+  246  curl google.com
+  247  nvim ~/.zshrc
+  248  source ~/.zshrc
+  249  curl google.com
+  250  ls
+  251  cd personal
+  252  ls
+  253  git clone git@github.com:wujackwill/wujackwill.github.io.git
+  254  git clone git@github.com:wujackwill/learn-R.git
+  255  git clone git@github.com:wujackwill/wujackwill.git
+  256  git clone git@github.com:wujackwill/apa-style.git
+  257  git clone git@github.com:wujackwill/excel2eprime.git
+  258  git clone git@github.com:wujackwill/replicator.nvim.git
+  259  git clone git@github.com:wujackwill/RStudio.git
+  260  ls
+  261  tmux
+  262  ls
+  263  nvim .
+  264  tmux
+  265  cd ~/.dotfiles/
+  266  ls
+  267  nvim .
+  268  ssh -o  209.141.40.190
+  269  ssh -o  root@209.141.40.190
+  270  ssh -O  root@209.141.40.190
+  271  ssh root@209.141.40.190
+  272  ssh root@209.141.40.190 -p 9472
+  273  ssh jackwill@209.141.40.190 -p 9472
+  274  cd ~/.dotfiles/
+  275  ls
+  276  ls .a
+  277  ls -a
+  278  cd .local/bin
+  279  ls
+  280  vim vps
+  281  ls
+  282  chmod 700 vps
+  283  ./vps
+  284  vim vps
+  285  ./vps
+  286  vps
+  287  cd ..
+  288  stow .
+  289  vps
+  290  nvim .tmux.conf
+  291  tmux
+  292  nvim .tmux.conf
+  293  vps ssh -o ServerAliveInterval=30 jackwill@209.141.61.24 -p 9472
+  294  vps ssh -o ServerAliveInterval=30 jackwill@209.141.40.190 -p 9472
+  295  curl google.com
+  296  vps ssh -o ServerAliveInterval=30 jackwill@209.141.40.190 -p 9472
+  297  ssh -o ServerAliveInterval=30 jackwill@209.141.40.190 -p 9472
+  298  cd ~/.dotfiles/
+  299  ls
+  300  nvim .
+  301  stow .
+  302  tmux
+  303  cd ~/.dotfiles/
+  304  nvim .
+  305  tmux
+  306  source-file ~/.tmux.conf
+  307  tmux source-file ~/.tmux.conf
+  308  ls
+  309  tmux kill-server
+  310  ls
+  311  nvim .
+  312  tmux
+  313  vim .
+  314  ls
+  315  tmux
+  316  git clone git@github.com:wujackwill/wujackwill.github.io.git 
+  317  z Desktop
+  318  git clone git@github.com:wujackwill/wujackwill.github.io.git 
+  319  tmux
+  320  tmux kill-server
+  321  ls
+  322  cd /mnt/d
+  323  ls
+  324  cd baocun
+  325  ls
+  326  cd note
+  327  ls
+  328  ls .\*assets
+  329  ls \*assets
+  330  ls .*\assets
+  331  ls assets
+  332  cd /mnt/d/baocun/note
+  333  ls
+  334  cd output
+  335  ls
+  336  rm -rf assets
+  337  tmux
+  338  dmesg
+  339  tmux
+  340  fzf
+  341  vikm
+  342  vim
+  343  cd /mnt/d/06\ personal
+  344  ;s
+  345  ls
+  346  cargo new helloworld
+  347  cd helloworld
+  348  ls
+  349  vim .
+  350  cd ~/.dotfiles
+  351  ls
+  352  ls -a
+  353  stow .
+  354  cd .local/bin
+  355  ls
+  356  chmod 700 vps
+  357  ls
+  358  vim tmux-sessionizer
+  359  tmux kill-server
+  360  tmux
+  361  cd ~/.dotfiles
+  362  ls
+  363  ls -a
+  364  vim .tmux.conf
+  365  cd .local/bin
+  366  vim .
+  367  cd /mnt/d/06\ personal
+  368  pwd
+  369  cd ..
+  370  ls
+  371  cd ~/.dotfiles/local/bin
+  372  ls
+  373  cd ~/.dotfiles
+  374  cd .local
+  375  cd bin
+  376  ls
+  377  cd ~/.dotfiles
+  378  ls
+  379  ls -a
+  380  vim .tmux.conf
+  381  tmux kill-server
+  382  tmux a
+  383  tmux
+  384  cd ~/.dotfiles
+  385  stow /
+  386  stow .
+  387  tmux kill-server
+  388  tmux
+  389  cd ~/.dotfiles
+  390  ls
+  391  ls -a
+  392  vim .tmux
+  393  vim .tmux.conf
+  394  tmux source-file
+  395  tmux kill-server
+  396  tmux source-file
+  397  tmux tmux source-file ~/.tmux.conf
+  398  tmux source-file ~/.tmux.conf
+  399  tmux a
+  400  tmux
+  401  tmux source-file ~/.tmux.conf
+  402  fzf /mnt/d/06\ personal
+  403  fzf | /mnt/d/06\ personal
+  404  ls /mnt/d/06\ personal > fzf
+  405  ls /mnt/d/06\ personal | fzf
+  406  cd ~/.dotfiles
+  407  ls
+  408  ls -a
+  409  vim .tmux.conf
+  410  cd .local
+  411  ls
+  412  cd bin
+  413  ls
+  414  vim tmux-sessionizer
+  415  ls
+  416  vim tmux-sessionizer
+  417  find  /mnt/d  -mindepth 1 -maxdepth 1 -type d | fzf
+  418  find  /mnt/d/06\ personal  -mindepth 1 -maxdepth 1 -type d | fzf
+  419  vim .
+  420  tmux kill-server
+  421  ls
+  422  tmux 
+  423  ls
+  424  pwd
+  425  ls
+  426  vim .
+  427  git init
+  428  git add .
+  429  git commit -m 'first commit'
+  430  cd ~/ssh
+  431  cd ~/.ssh
+  432  ls
+  433  git remote add origin git@jihulab.com:rust1/todo-cli-app.git
+  434  git commit -m 'first commit'
+  435  chmod 700 id_ed25519
+  436  git commit -m 'first commit'
+  437  git add .
+  438  git commit -m 'first commit'
+  439  git remote add origin git@jihulab.com:rust1/todo-cli-app.git
+  440  git init
+  441  git add .
+  442  git commit -m 'first commit'
+  443  git remote add origin git@jihulab.com:rust1/todo-cli-app.git
+  444  git push --set-upstream origin master
+  445  git remote add origin https://jihulab.com/rust1/todo-cli-app.git
+  446  git init
+  447  git add .
+  448  git commit -m 'first commit'
+  449  git remote add origin https://jihulab.com/rust1/todo-cli-app.git
+  450  git push --set-upstream origin master
+  451  git push  origin master
+  452  git push -u origin master
+  453  git init --initial-branch=master
+  454  git remote add origin git@jihulab.com:rust1/todo-cli-app.git
+  455  git add .
+  456  git commit -m "Initial commit"
+  457  git push --set-upstream origin master
+  458  chmod 700 ~/.ssh/config
+  459  git push --set-upstream origin master
+  460  ls
+  461  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a
+  462  echo "Hello World"
+  463  expr 123456 + 7890
+  464  bankname="WorldBanc"\nfounded="1969"\nceo="Jeff Gates"\n
+  465  bankname
+  466  $bankname
+  467  echo $bankname
+  468  echo $bankname "was founded in" $founded "by" $ceo
+  469  history
+  470  pwd
+  471  curl -L https://github.com/bootdotdev/worldbanc/archive/refs/heads/main.zip -o worldbanc.zip
+  472  unzip worldbanc.zip
+  473  sudo apt install unzip
+  474  unzip worldbanc.zip
+  475  sudo chown -R $(whoami) worldbanc
+  476  sudo chmod -R 755 worldbanc
+  477  ls
+  478  cd word
+  479  cd worldbanc
+  480  ls
+  481  cd ..
+  482  ls worldbanc
+  483  cd worldbanc/public/
+  484  ls
+  485  cat pr_ideas.txt
+  486  cd ..
+  487  private/transactions/
+  488  ls
+  489  head -n 6 2023.csv
+  490  tail -n 5 2023.csv
+  491  less 2023.csv
+  492  less -N 2023.csv
+  493  cd worldbanc/public/products/credit_cards
+  494  cd ..
+  495  worldbanc/public/products/credit_cards
+  496  cd worldbanc/public/products/credit_cards
+  497  cd wpublic/products/credit_cards
+  498  cd public/products/credit_cards
+  499  ls
+  500  touch credithistory.txt
+  501  s
+  502  ls
+  503  cd ..
+  504  ls
+  505  mkdir investments
+  506  ls 
+  507  ls
+  508  mv credit_cards/tbills.txt investments
+  509  cd ..
+  510  private
+  511  cd private
+  512  cat /passwords/passwords.txt
+  513  cat passwords/passwords.txt
+  514  ls
+  515  rm -rf passwords
+  516  ls
+  517  ls private/transactions/
+  518  ls private/transactions
+  519  ls transactions
+  520  cp transactions/ backups
+  521  cp -r transactions/ backups
+  522  ls backups
+  523  rm 2020.csv  2021.csv  2022.csv  2023.csv
+  524  ls
+  525  cd backups/
+  526  ls
+  527  rm *
+  528  ls
+  529  cd backups
+  530  ls
+  531  cd ..
+  532  rm *
+  533  rm -rf *
+  534  cd ..
+  535  ls
+  536  cp -r transactions/ backups
+  537  ls backups
+  538  ls
+  539  cd ..
+  540  ls
+  541  cd worldbanc/private
+  542  ls
+  543  ls transactions
+  544  ls ba
+  545  ls backups
+  546  cd transactions
+  547  ls backups
+  548  cp 2020.csv backups
+  549  ls backups
+  550  cd .
+  551  cd ..
+  552  ls
+  553  grep "CRITICAL" worldbanc/private/logs/2024-01-10.log
+  554  grep "CRITICAL" private/logs/2024-01-10.log
+  555  grep -r "CRITICAL" private/logs
+  556  find public/products -name  "join"
+  557  find public/products -name  "*join"
+  558  find public/products -name  "*join*"
+  559  sudo whoami
+  560  ls
+  561  cd worldbanc
+  562  ls -l
+  563  chmod -R u=rwx, g=, o=, private
+  564  chmod -R u=rwx,g=,o=, private
+  565  chmod -R u=rwx,g=,o= private
+  566  ls -la
+  567  ls
+  568  chmod +x private/bin/genids.sh
+  569  ./private/bin/genids.sh
+  570  cd worldbanc/private
+  571  cd private
+  572  ls
+  573  ls contacts
+  574  cat contacts/emergency.txt
+  575  sudo chown -R root contacts
+  576  ls -l
+  577  sudo rm -r contacts
+  578  ls
+  579  which sh
+  580  cat /bin/sh
+  581  cat private/bin/genids.sh
+  582  cd ..
+  583  private/bin/genids.sh
+  584  cat private/bin/genids.sh
+  585  cd private/bin
+  586  ls
+  587  cat warn.sh
+  588  WARN_MESSAGE="The auditor is here" ./warn.sh
+  589  WARN_MESSAGE="The auditor is here" WARN_FROM_NAME = "Your worst nightmare" ./warn.sh
+  590  WARN_MESSAGE="The auditor is here", WARN_FROM_NAME = "Your worst nightmare" ./warn.sh
+  591  WARN_MESSAGE="The auditor is here" WARN_FROM_NAME="Your worst nightmare" ./warn.sh
+  592  WARN_MESSAGE="The auditor is here" WARN_FROM_NAME = "Your worst nightmare" ./warn.sh
+  593  WARN_MESSAGE="The auditor is here" WARN_FROM_NAME="Your worst nightmare" ./warn.sh
+  594  cd private/bin
+  595  pwd
+  596  export PATH="PATH:/home/jackwill/worldbanc/private/bin"
+  597  worldbanc.sh
+  598  vim ~/.zshrc
+  599  nvim ~/.zshrc
+  600  vim
+  601  vim ~/.zshrc
+  602  source ~/.zshrc
+  603  worldbanc.sh
+  604  man man
+  605  man ls
+  606  man grep
+  607  man wc
+  608  wc -c public/pr_ideas.txt
+  609  wc -c worldbanc/public/pr_ideas.txt
+  610  ls -l worldbanc/public
+  611  ls -l worldbanc/public/key.txt
+  612  cat worldbanc/public/key.txt
+  613  mv worldbanc/public/key.txt worldbanc/private/
+  614  ls worldbanc/private
+  615  curl --help
+  616  ./private/bin/warn.sh
+  617  cd worldbanc/private/bin
+  618  ./private/bin/warn.sh
+  619  warn.sh
+  620  echo $?
+  621  grep "Marshal" worldbanc/private/transactions/2020.csv
+  622  cd ..
+  623  grep "Marshal" transactions/2020.csv
+  624  cdbin
+  625  cd bin
+  626  process_transactions.sh 
+  627  process_transactions.sh worldbanc/private/transactions/2020.csv > tmp/worldbanc.log
+  628  cd ..
+  629  ls
+  630  cd ..
+  631  ls
+  632  cd private/
+  633  cd bin
+  634  touch /tmp/worldbanc.log
+  635  process_transactions.sh worldbanc/private/transactions/2020.csv > tmp/worldbanc.log
+  636  process_transactions.sh worldbanc/private/transactions/2020.csv > /tmp/worldbanc.log
+  637  process_transactions.sh ./private/transactions/2020.csv > /tmp/worldbanc.log
+  638  ls
+  639  cd ..
+  640  ls
+  641  cd bin
+  642  ls
+  643  ls -a
+  644  cd ..
+  645  ls
+  646  cd bin
+  647  touch /tmp/worldbanc.log
+  648  ls
+  649  mkdir tmp
+  650  touch /tmp/worldbanc.log
+  651  ls
+  652  process_transactions.sh ./private/transactions/2020.csv > /tmp/worldbanc.log
+  653  cat /tmp/worldbanc.log
+  654  process_transactions.sh ~/worldbanc/private/transactions/2020.csv > /tmp/worldbanc.log
+  655  cat /tmp/worldbanc.log
+  656  process_transactions.sh ~/worldbanc/private/transactions/2020.csv > /tmp/worldbanc.log
+  657  cat worldbanc/private/bin/worldbanc.sh
+  658  cat ~worldbanc/private/bin/worldbanc.sh
+  659  cat ~/worldbanc/private/bin/worldbanc.sh
+  660  grep -R "Bob" ~/worldbanc/private/transactions --exclude-dir="backups"
+  661  grep -R "Bob" ~/worldbanc/private/transactions --exclude-dir="backups" > |wc -l
+  662  grep -R "Bob" ~/worldbanc/private/transactions --exclude-dir="backups" | wc -l
+  663  ./worldbanc/private/bin/private/bin/malicious.sh
+  664  ~/worldbanc/private/bin/private/bin/malicious.sh
+  665  ~/worldbanc/private/bin/malicious.sh
+  666  ./malicious.sh force
+  667  cd ~/worldbanc/private/bin
+  668  ps aux | grep malicious.sh
+  669  kill 2829
+  670  kill 4752
+  671  kill 3352
+  672  nvim --version
+  673  vim worldbanc/public/company_info.md
+  674  vim ~/worldbanc/public/company_info.md
+  675  cat ~/worldbanc/public/company_info.md
+  676  sudo apt install lsd
+  677  lsd ~/worldbanc/private/transactions
+  678  lsd --tree ~/worldbanc/private/
+  679  lsd --tree ~/worldbanc/private/transactions
+  680  lsd --classic ~/worldbanc/private/transactions
+  681  sudo apt install bootdev
+  682  go install github.com/bootdotdev/bootdev@latest
+  683  curl -sS https://webi.sh/golang | sh
+  684  sudo apt install gp
+  685  sudo apt install go
+  686  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+  687  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar_2
+  688  rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+  689  sudo rm -rf /usr/local/go && tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+  690  sudo tar -C /usr/local -xzf go1.23.2.linux-amd64.tar.gz
+  691  vim ~/.zshrc
+  692  source ~/.zshrc
+  693  go
+  694  go install github.com/bootdotdev/bootdev@latest
+  695  go env -w GOPROXY=https://goproxy.cn
+  696  go install github.com/bootdotdev/bootdev@latest
+  697  go install https://gh.llkk.cc/github.com/bootdotdev/bootdev@latest
+  698  go install gh.llkk.cc/github.com/bootdotdev/bootdev@latest
+  699  go install github.com/bootdotdev/bootdev@latest
+  700  git config --global http.sslverify false
+  701  go install github.com/bootdotdev/bootdev@latest
+  702  curl github.co
+  703  curl github.com
+  704  go install github.com/bootdotdev/bootdev@latest
+  705  go env -w GOPROXY=https://goproxy.io,direct
+  706  go get github.com/astaxie/beego
+  707  go install github.com/bootdotdev/bootdev@latest
+  708  go env -w GO111MODULE=on
+  709  go env -w GOPROXY=https://goproxy.cn,direct
+  710  export GO111MODULE=on
+  711  export GOPROXY=https://goproxy.cn
+  712  go env -w GOPROXY=https://goproxy.cn,direct
+  713  go install github.com/bootdotdev/bootdev@latest
+  714  git clone https://gitclone.com/github.com/tendermint/tendermint.git`
+  715  git clone https://gitclone.com/github.com/tendermint/tendermint.git
+  716  go install github.com/bootdotdev/bootdev@latest
+  717  curl google.com
+  718  vim ~/.zshrc
+  719  source ~/.zshrc
+  720  vim ~/.zshrc
+  721  source ~/.zshrc
+  722  curl google.com
+  723  vim ~/.zshrc
+  724  source ~/.zshrc
+  725  curl google.com
+  726  go install github.com/bootdotdev/bootdev@latest
+  727  bootdev login\]
+  728  bootdev login
+  729  bootdev --version
+  730  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a
+  731  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a -s
+  732  git --version
+  733  bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92
+  734  bootdev run 65e6780d-fdde-447a-9898-b30b73793a3a
+  735  ping baidu.com
+  736  vim ~/.zshrc
+  737  source ~/.zshrc
+  738  ping baidu.com
+  739  curl baidu.com
+  740  vim ~/.zshrc
+  741  source ~/.zshrc
+  742  vim ~/.zshrc
+  743  sudo apt install go
+  744  sudo apt install vi
+  745  ping baidu.com
+  746  vim ~/.zshrc
+  747  cat ~/.zshrc
+  748  ping baidu.com
+  749  sudo apt update
+  750  bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92
+  751  bootdev l
+  752  bootdev login
+  753  bootdev --version
+  754  source ~/.zshrc
+  755  vim ~/.zshrc
+  756  go
+  757  go install github.com/bootdotdev/bootdev@latest
+  758  bootdev --version
+  759  go install github.com/bootdotdev/bootdev@latest
+  760  vim ~/.zshrc
+  761  source ~/.zshrc
+  762  go install github.com/bootdotdev/bootdev@latest
+  763  bootdev --version
+  764  sudo apt update
+  765  bootdev --version
+  766  bootdev run 0552b1c3-49d9-4d4b-b44d-e91188a79c92
+  767  bootdev
+  768  vim ~/.zshrc
+  769  source ~/.zshrc
+  770  bootdev
+  771  go
+  772  bootdev
+  773  vim $HOME/.bootdev.yaml
+  774  bootdev
+  775  go install sigs.k8s.io/kind@v0.9.0
+  776  go env -w GO111MODULE=on
+  777  go env -w GOPROXY=https://goproxy.cn,direct
+  778  echo "export GO111MODULE=on" >> ~/.profile
+  779  echo "export GOPROXY=https://goproxy.cn" >> ~/.profile
+  780  source ~/.profile
+  781  go install sigs.k8s.io/kind@v0.9.0
+  782  vim ~/.zshrc
+  783  source ~/.zshrc
+  784  go install sigs.k8s.io/kind@v0.9.0
+  785  vim ~/.zshrc
+  786  source ~/.zshrc
+  787  vim ~/.zshrc
+  788  go install sigs.k8s.io/kind@v0.9.0
+  789  bootdev
+  790  go install sigs.k8s.io/kind@v0.9.0
+  791  bootdev
+  792  bootdev run 69fb8a76-9456-47e2-9804-05466614882e
+  793  bootdev run 69fb8a76-9456-47e2-9804-05466614882e -s
+  794  vim ~/.gitconfig
+  795  git config --global init.defaultBranch master
+  796  bootdev run 69fb8a76-9456-47e2-9804-05466614882e
+  797  bootdev run 69fb8a76-9456-47e2-9804-05466614882e -s
+  798  ls
+  799  mkdir webflyx
+  800  cd webflyx
+  801  git init
+  802  bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a
+  803  bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a -s
+  804  npm create astro@latest
+  805  npm config set registry https://registry.npmmirror.com
+  806  npm create astro@latest
+  807  npm config set registry https://registry.npmjs.org/
+  808  npm create astro@latest
+  809  yarn create astro
+  810  nodejs
+  811  node --verison
+  812  node -verison
+  813  node
+  814  yarn create astro
+  815  pnpm create astro@latest
+  816  sudo apt install pnpm
+  817  npm install -g pnpm
+  818  pnpm create astro@latest
+  819  yarn create astro
+  820  sudo apt remove cmdtest
+  821  sudo apt remove yarn
+  822  sudo npm install -g yarn
+  823  npm
+  824  npm install -g yarn
+  825  npm npm config set registry https://registry.npmmirror.com
+  826  npm config set registry https://registry.npmmirror.com
+  827  npm npm config set registry https://registry.npmmirror.com
+  828  npm install -g yarn
+  829  yarn create astro
+  830  yarn run dev
+  831  ls
+  832  s -a
+  833  ls -a
+  834  mkdir blog && cd blog
+  835  yarn create astro
+  836  yarn run dev
+  837  cd .
+  838  cd ..
+  839  rm -f blog
+  840  rm -rf blog
+  841  yarn create astro --template blog
+  842  ls
+  843  pnpm create astro@latest
+  844  hexo -v
+  845  npm install -g hexo-cli
+  846  hexo -v
+  847  mkdir blog
+  848  cd blog
+  849  cd ..
+  850  rm -rf blog
+  851  hexo init hexo-blog
+  852  cd blog
+  853  ls
+  854  cd hexo-blog
+  855  hexo s
+  856  tmux
+  857  cd D:/
+  858  cd D:\
+  859  cd D:
+  860  cd /mnt/d/06\ personal
+  861  ls
+  862  vim todo-cli-app
+  863  ssh root@139.84.213.113
+  864  ping jackwill.top
+  865  git clone https://github.com/ThePrimeagen/tmux-sessionizer.git
+  866  ssh root@149.28.212.120
+  867  ssh root@139.84.176.218
+  868  ls
+  869  cd webflyx
+  870  ls
+  871  git init
+  872  bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a
+  873  bootdev run fda2c302-cb1e-4ed1-910c-609d85d33e4a -s
+  874  vim contents.md
+  875  git status
+  876  bootdev run f330368c-734c-4708-971b-2ad33b4b7f52
+  877  bootdev run f330368c-734c-4708-971b-2ad33b4b7f52 -s
+  878  git add contents.md
+  879  git status
+  880  bootdev run 10bf6614-7c0e-4710-9c84-4fee200d63e4
+  881  bootdev run 10bf6614-7c0e-4710-9c84-4fee200d63e4 -s
+  882  git commit -m "A: add contents.md"
+  883  bootdev run 321d7b2d-60b8-433c-9123-210bbf49c758
+  884  bootdev run 321d7b2d-60b8-433c-9123-210bbf49c758 -s
+  885  git --no-pager log -n 10
+  886  git --no-pager log -n 1
+  887  bootdev run 865b32b2-1493-48aa-b32e-a1e7418bc609
+  888  bootdev run 865b32b2-1493-48aa-b32e-a1e7418bc609 -s
+  889  git log -n 10
+  890  ls -al .git/objects
+  891  ls -al info
+  892  ls -al .git/objects/info
+  893  ls -al .git/objects/info/total
+  894  ls -al .git/objects/07
+  895  xxd
+  896  cat .git/objects/07/29d79932d85e766a5f62d3ca9ded5b2f4afd5d
+  897  xxd .git/objects/07/29d79932d85e766a5f62d3ca9ded5b2f4afd5d
+  898  xxd .git/objects/07/29d79932d85e766a5f62d3ca9ded5b2f4afd5d > /tmp/commit_object_hex.txt
+  899  bootdev run 4efdf7b5-dd51-40ea-99e3-4e221e24bd0f
+  900  bootdev run 4efdf7b5-dd51-40ea-99e3-4e221e24bd0f -s
+  901  ls
+  902  cd webflyx
+  903  ls
+  904  git log
+  905  git cat-file -p git cat-file -p
+  906  git log
+  907  git cat-file -p 0729d79932d85e766a5f62d3ca9ded5b2f4afd5d
+  908  git cat-file -p 0729d79932d85e766a5f62d3ca9ded5b2f4afd5d > /tmp/catfileout.txt
+  909  bootdev run 7affbcbd-1455-43f3-868a-b10662921a91
+  910  bootdev run 7affbcbd-1455-43f3-868a-b10662921a91 -s
+  911  git cat-file -p 0729d79932d85e766a5f62d3ca9ded5b2f4afd5d
+  912  git cat-file-p 4b0d3fa8aede6902c3fe325b7143d658664ec2d1
+  913  git cat-file -p 4b0d3fa8aede6902c3fe325b7143d658664ec2d1
+  914  git cat-file -p ccf35b2a19609da1a330dccef20e1e07128f580d
+  915  git cat-file -p ccf35b2a19609da1a330dccef20e1e07128f580d > /tmp/blobfile.txt
+  916  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1
+  917  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1 -s
+  918  vim contents.md
+  919  git cat-file -p ccf35b2a19609da1a330dccef20e1e07128f580d > /tmp/blobfile.txt
+  920  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1
+  921  git status                                                                                                                                             
+  922  git add .
+  923  git commit -m "A: add contents.md"
+  924  git log
+  925  git cat-file -p 73c19b771444903bd6e97b848a10d74dc5773385
+  926  git cat-file -p 5b21d4f16a4b07a6cde5a3242187f6a5a68b060f
+  927  git cat-file -p ef7e93fc61a91deecaa551c4707e4c3049af42c9
+  928  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1
+  929  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1 -s
+  930  git cat-file -p ef7e93fc61a91deecaa551c4707e4c3049af42c9 > /tmp/blobfile.txt
+  931  bootdev run ce822188-75cf-4c5a-92b9-17b2878ac9f1 -s
+  932  vim titles.md
+  933  git add .
+  934  git commit -m "B: add titles"
+  935  git cat-file 
+  936  bootdev run 71127960-79af-452d-a732-0c44908ca7bf
+  937  bootdev run 71127960-79af-452d-a732-0c44908ca7bf -s
+  938  git log
+  939  git cat-file -p fb12aaf775a6fb202541f5afba58a8d735eb54b5
+  940  git cat-file -p 04819d36f56c9198bd060844298495418bc35743
+  941  git cat-file -p 742ae47550048eceeb91822826d4e6bca55fb897
+  942  mkdir quotes
+  943  cd quotes
+  944  ls
+  945  vim starwars.md
+  946  vim dune.md
+  947  git add .
+  948  git commit -m "C: add quotes"
+  949  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe
+  950  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe -s
+  951  vim dune.md
+  952  vim starwars.md
+  953  git status
+  954  vim starwars.md
+  955  vim dune.md
+  956  vim starwars.md
+  957  git add .
+  958  git commit -m "C: add quotes"
+  959  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe 
+  960  cat ./quotes/starwars.md
+  961  cd ..
+  962  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe 
+  963  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe  -s
+  964  vikm .
+  965  vim .
+  966  git add .
+  967  git commit -m "C: add quotes"
+  968  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe  
+  969  bootdev run 1e2eb318-2a6f-44a0-bc93-e9cdd9510ebe   -s
+  970  git config --list --local
+  971  cat .git/config
+  972  bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef
+  973  bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef -s
+  974  git config --list --local
+  975  vim .git/config
+  976  bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef
+  977  bootdev run 8c3b66a7-a454-480b-a0db-9cd34a721cef -s
+  978  git config --get webflyx.valuation
+  979  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1
+  980  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 -s
+  981  git config --get webflyx.valuation
+  982  vim .git/config
+  983  git config --get webflyx.valuation
+  984  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1
+  985  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 -s
+  986  vim .git/config
+  987  git config --get webflyx.valuation
+  988  vim .git/config
+  989  git config --get webflyx.valuation
+  990  vim .git/config
+  991  git config --get webflyx.valuation
+  992  vim .git/config
+  993  git config --get webflyx.valuation
+  994  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 
+  995  vim .git/config
+  996  git config --get webflyx.valuation
+  997  vim .git/config
+  998  git config --get webflyx.valuation
+  999  git config valuation mid
+ 1000  git config webflyx.valuation mid
+ 1001  git config --get webflyx.valuation
+ 1002  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 
+ 1003  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 -s\
+ 1004  bootdev run ea9fe1c9-5284-4aae-95eb-1c6a834aa7c1 -s
+ 1005  git config --unset webflyx
+ 1006  git config --add webflyx.ceo "Warren"\ngit config --add webflyx.ceo "Carson"\ngit config --add webflyx.ceo "Sarah"\n
+ 1007  git config --list --local
+ 1008  git config --unset-all 
+ 1009  git config --unset-all webflyx.ceo
+ 1010  git config --list --local
+ 1011  vim .git/config
+ 1012  git config --list --local
+ 1013  bootdev run 9473bfc6-37ac-4644-ab55-76e8d88d8a27
+ 1014  bootdev run 9473bfc6-37ac-4644-ab55-76e8d88d8a27 -s
+ 1015  bootdev run c2b04b80-e061-4305-96e4-33a1f6e4d959
+ 1016  vim .git/config
+ 1017  bootdev run c2b04b80-e061-4305-96e4-33a1f6e4d959 -s
+ 1018  git branch
+ 1019  bootdev run 8b4b9cd5-af15-4d71-b790-299fd2150a93
+ 1020  bootdev run 8b4b9cd5-af15-4d71-b790-299fd2150a93 -s
